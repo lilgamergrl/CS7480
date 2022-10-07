@@ -21,7 +21,7 @@ class App:
 
         self.blocks_x, self.blocks_y = self.get_blocks()
         pyxel.init(self.top_of_screen, self.side_of_screen, title="Otter Kick")
-        pyxel.image(0).load(0, 0, "assets/otter_idle_1.png")
+        img = pyxel.image(0).load(0, 0, "assets/otter_idle_1.png")
         pyxel.run(self.update, self.draw)
 
     def get_blocks(self):
@@ -86,10 +86,10 @@ class App:
         # Draw player
         if self.start:
             print("Stage2")
-            for i in range(self.block_count):
-                for x, y in zip(self.blocks_x,self.blocks_y):
-                    pyxel.blt(x , y, 0, 64, 32, 32, 8, 12)
-                    #pyxel.blt(self.blocks_x[i], self.blocks_y[i], 0, 0, 16, 40, 8, 12)
+            for x, y in zip(self.blocks_x,self.blocks_y):
+                img2 = pyxel.image(7).load(x,y)
+                pyxel.blt(x , y, 0, 64, 32, 32, 8, 12)
+                #pyxel.blt(self.blocks_x[i], self.blocks_y[i], 0, 0, 16, 40, 8, 12)
 
 
 App()

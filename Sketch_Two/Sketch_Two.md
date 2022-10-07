@@ -22,3 +22,7 @@ project for new programmers to learn. In the future I
 would be interested in its compatibility with different
 game ai interfaces which I will hopefully try out in a future
 sketch.
+
+Some cons of this project include the lack of documentation and unclear
+features list. This tool is similar to libgdx except that libgdx has better documentation and 
+is written in Java.
