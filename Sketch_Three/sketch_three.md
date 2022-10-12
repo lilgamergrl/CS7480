@@ -16,7 +16,7 @@ I am currently planning on reviewing the below papers.
    "A Prototype Quest Generator Based on a Structural Analysis of Quests from Four MMORPGs", Proceedings of the Second International Workshop on Procedural Content Generation in Games, pp. 1-8, Bordeaux, France, 2011.
 3. Jonathon Doran and Ian Parberry, "A Server-Side Framework for the Execution of Procedurally Generated Quests in an MMORPG", Proceedings of the 16th Annual European Conference on Simulation and AI in Computer Games (GAMEON 2015), pp. 103-110, Amsterdam, The Netherlands, Eurosis, December 2015.{https://ianparberry.com/pubs/DoranParberryQuests2015.pdf}
 
-m extremely interested in how the Questify programming language was inspired by Doran and Parberry’s 2011
+I'm extremely interested in how the Questify programming language was inspired by Doran and Parberry’s 2011
 paper "A Prototype Quest Generator Based on a Structural Analysis of Quests from Four MMORPGs" but I hope
 to find the 2011 paper or use the 2015 paper as a stepping stone to create a quest generator for various 
 situation in games. I am also extremely interested in the LitRPG genre so I will base the initial stats 
